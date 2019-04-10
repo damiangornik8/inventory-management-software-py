@@ -73,15 +73,15 @@ elif (menuChoice == 2):
   for product in productsList:
     # Display the product: 
     # .name
-    print "Name:", product.name.title() 
+    print ("Name:", product.name.title()) 
     # .category
-    print "Category:",product.category.title()
+    print ("Category:",product.category.title())
     # .net price
-    print "Net Price:",product.netPrice
+    print ("Net Price:",product.netPrice)
     # .gross price
-    print "Gross Price:",product.getGrossPrice()
+    print ("Gross Price:",product.getGrossPrice())
     # .quantity
-    print "Quantity:",product.quantity
+    print ("Quantity:",product.quantity)
 
     print("- -")
     print("")
